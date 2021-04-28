@@ -1,6 +1,6 @@
-import React from "react";
-
 import './app.scss'
+import Home from "./pages/home";
+import Routes from "./Routes";
 
 const App = () => {
 
@@ -10,11 +10,8 @@ const App = () => {
   * */
 
   return (
-      <div className="box-red">
-        <h1>Testando</h1>
-      </div>
-
-  );
+    <Routes/>
+    );
 }
 
 export default App;
